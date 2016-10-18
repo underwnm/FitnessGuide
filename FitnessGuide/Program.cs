@@ -10,8 +10,15 @@ namespace FitnessGuide
     {
         static void Main(string[] args)
         {
-            FitnessStory currentStory = new FitnessStory();
-            currentStory.Introduction();          
+            FitnessWorkout currentWorkout = new FitnessWorkout();
+            currentWorkout.ExecuteWorkout();
+
+            FitnessNutrition currentNutrition = new FitnessNutrition();
+            currentNutrition.ExecuteNutrition();
+
+            Console.WriteLine("END OF PROGRAM");
+            Console.ReadKey();
+
         }
     }
 }

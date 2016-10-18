@@ -8,7 +8,7 @@ namespace FitnessGuide
 {
     class FitnessWorkout
     {
-        private string fitnessGoal;
+        public static string fitnessGoal;
         private string workoutOption;
         private string numOfReps;
 
@@ -16,10 +16,11 @@ namespace FitnessGuide
         {
             WelcomeMessage();
             GetFitnessGoal();
+            EndingFitnessWorkout();
         }
         public void WelcomeMessage()
         {
-            Console.WriteLine("WELCOME TO TODAY'S RANDOM FITNESS WORKOUK!");
+            Console.WriteLine("WELCOME TO TODAY'S FITNESS WORKOUK GENERATOR!");
             Console.WriteLine("Your user input will determine what is on the agenda for today's workout.");
         }
         public string GetUserInput(string question)
@@ -65,7 +66,6 @@ namespace FitnessGuide
             {
                 DisplayLowerBodyWorkout();
             }
-
         }         
         public void GetNumberOfReps()
         {
@@ -91,6 +91,12 @@ namespace FitnessGuide
         {
             GetNumberOfReps();
             Console.WriteLine("Warm-Up \n. {0} Sumo Squat \n. {0} Alternating Lunge \n. {0} Step-Up to Reverse Lunge \n. {0} Parallel Squat \n. {0} Bulgarian Squat \n. {0} Straight Leg Deadlift \n. {0} Single Leg Calf Raise \n. {0} Seated Calf Raise", numOfReps);
+        }
+        public void EndingFitnessWorkout()
+        {
+            Console.WriteLine("PRESS ENTER TO CONTINUE TO YOUR NUTRITION");
+            Console.ReadKey();
+            Console.Clear();
         }
     }
 }

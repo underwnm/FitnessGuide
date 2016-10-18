@@ -1,1 +1,6 @@
 \\mac\home\documents\visual studio 2015\Projects\FitnessGuide\FitnessGuide\bin\Debug\FitnessGuide.exe.config
+\\mac\home\documents\visual studio 2015\Projects\FitnessGuide\FitnessGuide\bin\Debug\FitnessGuide.exe
+\\mac\home\documents\visual studio 2015\Projects\FitnessGuide\FitnessGuide\bin\Debug\FitnessGuide.pdb
+\\mac\home\documents\visual studio 2015\Projects\FitnessGuide\FitnessGuide\obj\Debug\FitnessGuide.csprojResolveAssemblyReference.cache
+\\mac\home\documents\visual studio 2015\Projects\FitnessGuide\FitnessGuide\obj\Debug\FitnessGuide.exe
+\\mac\home\documents\visual studio 2015\Projects\FitnessGuide\FitnessGuide\obj\Debug\FitnessGuide.pdb
