@@ -25,9 +25,7 @@ namespace FitnessGuide
             GetFitnessGoalCalorieAdjustment();
             GetGenderCalorieBonus();
             CalculateTotalCalories();
-            DisplayTotalCalories();
-  
-
+            DisplayTotalCalories(); 
         }
         public void WelcomeMessage()
         {
@@ -43,8 +41,7 @@ namespace FitnessGuide
         public void GetActivityLevel()
         {
             activityLevel = GetUserInput("What is your Activity Level? Enter High, Moderate, or Sedentary");
-            CalculateActivityLevel();
-          
+            CalculateActivityLevel();          
         }
         public void CalculateActivityLevel()
         {
@@ -76,7 +73,7 @@ namespace FitnessGuide
         {
             if (userGender == "Male")
             {
-                genderCalorieBonus = 500;
+                genderCalorieBonus = 400;
             } else if (userGender == "Female")
             {
                 genderCalorieBonus = 300;
@@ -89,8 +86,7 @@ namespace FitnessGuide
                 fitnessGoalCalorieAdjustment = 300;
             } else if (FitnessWorkout.fitnessGoal == "Tone") {
                 fitnessGoalCalorieAdjustment = 0;
-            } else if (FitnessWorkout.fitnessGoal == "Lose Weight")
-            {
+            } else if (FitnessWorkout.fitnessGoal == "Lose Weight") {
                 fitnessGoalCalorieAdjustment = -1000;
             }
         }
